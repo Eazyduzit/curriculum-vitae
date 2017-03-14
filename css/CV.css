@@ -19,7 +19,7 @@ html, body{
     margin-top: 80px;
 }
 
-h1, h2, p{
+h1, h2, p, td{
     font-family: didot;
 }
 
@@ -50,7 +50,7 @@ p{
     margin-bottom: 100px;
 }
 
-#education, #skills{
+#education, #skills, #experience{
     position: relative;
     margin-bottom: 100px;
     
@@ -58,6 +58,10 @@ p{
 
 td{
     text-align: left;
+}
+
+#showHideBtn{
+    margin-bottom: 20px;
 }
 
 .footer{
