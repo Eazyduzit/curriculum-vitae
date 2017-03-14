@@ -3,43 +3,104 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css"> <!--bootstrap theme, sandstone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Brand icons, used for icon links-->
     <link rel="stylesheet" href="../css/CV.css" type="text/css">
     <title>Curriculum Vitae</title>
 </head>
-
 <body>
     <div id="pageWrap">
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
+   
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button class="collapsed navbar-toggle" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+          
+        <div id="navbar" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav">
                 <li><a href="../index.html">Om Meg</a></li>
                 <li class="active"><a href="#">Utdanning</a></li>
                 <li><a href="../pages/erfaring.html">Erfaring</a></li>
                 <li><a href="../pages/ferdigheter.html">Ferdigheter</a></li>
-                <li><a href="../pages/kurs.html">Kurs/Verv</a></li>
                 <li><a href="../pages/referanser.html">Referanser</a></li>
                 <li><a href="../pages/bachelorprosjekt.html">Bachelorprosjekt</a></li>
             </ul>
         </div>
-    </nav>     
-
+    </nav>   
         
-    <div id="omMeg"> 
+    <header class="page-header">
         <h1>Curriculum Vitae</h1>
-        
-        <img id="imgMeg" src="../img/Marius_Skjellerud.jpg" alt="Picture of me" class="img-circle" class="img-responsive">
+    </header>
+          
+    <div id="title">
+        <h2>Utdanning</h2>
     </div> 
-                  
+                 
+    <div id="education" class="container">            
+      <table class="table table-hover">
+          <tr>
+            <td>Bachelor</td>
+            <td>Westerdals Oslo ACT</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.westerdals.no/studieprogram/interaktivt-design/">Interaktivt design</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>August 2014 - Nåtid</td>
+          </tr>
+      </table>
+      <br>
+      <table class="table table-hover">
+          <tr>
+            <td>Fagbrev/svennebrev</td>
+            <td>Skedsmo Videregående Skole</td>
+          </tr>
+          <tr>
+            <td>Trevare og møbelsnekkerfaget</td>
+            <td>August 2003 – Juni 2004</td>
+          </tr>
+      </table>
+      <br>
+      <table class="table table-hover">
+          <tr>
+            <td>Trevare og møbelsnekkerfaget</td>
+            <td>Skedsmo Videregående Skole</td>
+          </tr>
+          <tr>
+            <td>Trearbeid, VK1, VK2</td>
+            <td>August 2000 – Juni 2002</td>
+          </tr>
+      </table>
+    </div>          
+                          
+    <!--
+              
+    Bachelor       							                            Westerdals Oslo ACT 
+    Interaksjonsdesign                                              	(Art Communication and Technology) 
+    Design og utvikling av web løsninger for web og mobil.              August 2014 - Nåtid
+
+    Fagbrev/svennebrev 					                                Skedsmo Videregående Skole 
+    Trevare og møbelsnekkerfaget                                        August 2003 – Juni 2004	
+    			            
+    Trevare og møbelsnekkerfaget   				                        Skedsmo Videregående Skole 
+    Trearbeid, VK1, VK2				                  		            August 2000 – Juni 2002
+                                
+               
+    -->           
+                
     <footer class="footer">
         <div class="container">
-            <p>some footer text</p>
+            <div id="icons">  
+                <a href="https://www.linkedin.com/in/marius-skjellerud/"><i class="fa fa-linkedin-square" style="font-size:50px;color:black"></i></a>
+                <a href="https://github.com/Eazyduzit"><i class="fa fa-github" style="font-size:50px;color:black"></i></a>
+            </div>   
         </div>
-    </footer>
+    </footer> 
                    
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"></script> <!--hentet fra jQuery-->
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> <!--bootstrap javascript-->
 </body>
 </html>
