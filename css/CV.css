@@ -45,12 +45,7 @@ p{
     margin-bottom: 20px;
 }
 
-#aboutMe{
-    position: relative;
-    margin-bottom: 100px;
-}
-
-#education, #skills, #experience{
+#aboutMe, #education, #skills, #experience{
     position: relative;
     margin-bottom: 100px;
     
